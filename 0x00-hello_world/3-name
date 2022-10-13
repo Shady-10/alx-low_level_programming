@@ -1,2 +1,2 @@
 #!/bin/bash
-cc cisfun.c -o $CFILE
+make cisfun
