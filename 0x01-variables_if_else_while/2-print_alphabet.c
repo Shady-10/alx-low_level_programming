@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	for (size_t i = 'a'; i <= 'z'; i++)
+	char i;
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
