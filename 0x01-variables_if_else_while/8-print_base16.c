@@ -14,7 +14,7 @@ int main(void)
 	for (i = 48; i <= 'f'; i++)
 	{
 		if(i==58)
-			i==97;
+			i=97;
 		putchar(i);
 	}
 	putchar('\n');
