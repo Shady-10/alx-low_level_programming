@@ -1,4 +1,6 @@
 #include "main.h"
+#include <cstdlib>
+#include <cmath.h>
 /**
  * _isalpha - a function that checks for an alpha character
  * @c: single letter input
