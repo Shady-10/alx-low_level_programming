@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - a function that checks for an alpha character
- * @c: single letter input
- * Return: 1 if int c is alpha, 0 if otherwise
+ * _abs - a function that computes the absolute value of an integer
+ * @ab: integer input
+ * Return: absolute value of ab
  */
 int _abs(int i)
 {
