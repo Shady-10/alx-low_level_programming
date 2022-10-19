@@ -1,5 +1,4 @@
 #include "main.h"
-#include <cmath>
 /**
  * _isalpha - a function that checks for an alpha character
  * @c: single letter input
@@ -7,5 +6,5 @@
  */
 int _abs(int i)
 {
-	return (abs(i));
+	return ((i < 0) ? i * -1 : i);
 }
