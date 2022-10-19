@@ -9,12 +9,14 @@
  */
 int main(void)
 {
-	char i;
+	int i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 48; i <= 'f'; i++)
 	{
+		if (i == 58)
+			i = 97;
 		putchar(i);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

@@ -4,17 +4,22 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - rints the alphabet in lower case
+ * main - prints all possible combinations of single-digit numbers.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
+int c = 48;
+while (c < 58)
+{
+	putchar(c++);
+	if (c <= 57)
 	{
-		putchar(i);
+		putchar(',');
+		putchar(' ');
 	}
-	printf("\n");
+}
+putchar('\n');
 	return (0);
 }
