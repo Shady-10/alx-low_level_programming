@@ -5,7 +5,7 @@
  * @i: integer input
  * Return: the last digit of i
  */
-int print_last_digit(int i);
+int print_last_digit(int i)
 {
 	return (i % 10);
 }
