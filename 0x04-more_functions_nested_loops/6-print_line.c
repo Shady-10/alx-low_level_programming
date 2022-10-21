@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * more_numbers - check a char
- *
- *Return: 0 or 2
- */
+* print_line - check a char
+*@n: integer
+*
+*Return: 0 or 2
+*/
 void print_line(int n)
 {
 	while (n--)
