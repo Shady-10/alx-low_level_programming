@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *print_numbers - check a char
- *
- *Return: 0 or 2
- */
+*print_most_numbers - check a char
+*
+*Return: 0 or 2
+*/
 void print_most_numbers(void)
 {
 	char a;
