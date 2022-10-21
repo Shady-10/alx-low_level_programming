@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- *mul - check a char
- *@i: variable
- *
- *Return: 0 or 2
- */
+*print_numbers - check a char
+*
+*Return: 0 or 2
+*/
 void print_numbers(void)
 {
-	char i;
-	
-	for (i = '0'; i <= '9'; i++)
+	char a;
+
+	for (a = '0'; a <= '9'; a++)
 	{
-		_putchar(i);
+		_putchar(a);
 	}
 	_putchar('\n');
 }
