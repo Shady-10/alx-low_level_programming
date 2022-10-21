@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isupper - check a digit
+*_isupper - check a char
 *@c: variable
 *Return: 0 or 1
 */
